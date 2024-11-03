@@ -1,0 +1,21 @@
+# Ignora o ambiente virtual
+env/
+venv/
+  
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+
+# Ignora arquivos do Jupyter Notebook
+*.ipynb_checkpoints
+
+# Arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Outras configurações e arquivos desnecessários
+*.log
+
+# Graficos
+
+# Modelo gerado
