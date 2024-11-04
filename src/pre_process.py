@@ -18,7 +18,7 @@ def preprocess_data(file_path):
     final_df = pd.merge(final_df, first_purchase_date, on='client_id')
     final_df = pd.merge(final_df, last_purchase_date, on='client_id')
 
-    final_df.columns = ['client_id', 'name', 'Email', 'age', 'gender', 'location', 'total_purchase_value', 'favorite_category', 'first_purchase_date', 'last_purchase_date']
+    final_df.columns = ['client_id', 'name', 'email', 'age', 'gender', 'location', 'total_purchase_value', 'favorite_category', 'first_purchase_date', 'last_purchase_date']
 
     return final_df
 
